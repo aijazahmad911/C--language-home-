@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1532713280 source:e:\ajaz's\c programs\max,min\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1534509097 source:e:\ajaz's\c programs\max_min_of_array\main.c
+	<stdio.h>
+	<stdlib.h>
+

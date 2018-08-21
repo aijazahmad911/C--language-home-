@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1532001810 source:e:\ajaz's\c programs\check_leap\main.c
+	<stdio.h>
+	<stdlib.h>
+

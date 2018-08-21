@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1532971825 source:e:\ajaz's\c programs\factorial_array\main.c
+	<stdio.h>
+	<stdlib.h>
+
