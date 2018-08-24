@@ -22,6 +22,7 @@ int main()
     printf("\nmax= %d",n);
     s=n-m;
     printf("\nrange= %d",s);
+    getch();
 }
 int max(int* a,int count){
     int n=0,i;
