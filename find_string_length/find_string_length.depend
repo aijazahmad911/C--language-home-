@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1535119753 source:e:\ajaz's\c programs(home)\find_string_length\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
