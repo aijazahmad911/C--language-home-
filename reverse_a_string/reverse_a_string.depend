@@ -1,5 +1,6 @@
 # depslib dependency file v1.0
-1535172030 source:e:\ajaz's\c programs(home)\reverse_a_string\main.c
+1535179835 source:e:\ajaz's\c programs(home)\reverse_a_string\main.c
 	<stdio.h>
 	<stdlib.h>
+	<string.h>
 
