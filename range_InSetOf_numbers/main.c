@@ -34,7 +34,7 @@ int max(int* a,int count){
 return(n);
 }
 int min(int* a,int count){
-    int n=0,i;
+    int n=*a,i;
     for(i=0;i<count;i++){
         if(*(a)<n)
             n=*(a);
