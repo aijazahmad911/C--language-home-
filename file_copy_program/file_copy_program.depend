@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1535890489 source:e:\ajaz's\c programs(home)\file_copy_program\main.c
+	<stdio.h>
+	<stdlib.h>
+

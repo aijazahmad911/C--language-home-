@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1535827959 source:e:\ajaz's\c programs(home)\read_frm_console_n_wrt_into_file\main.c
+	<stdio.h>
+	<stdlib.h>
+

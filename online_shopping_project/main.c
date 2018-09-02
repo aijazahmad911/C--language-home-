@@ -5,7 +5,10 @@ IMCA (SEM-1) */
 #include <stdio.h>
 #include <stdlib.h>
 void mainmenu();
-int total;
+void cart();
+void additem();
+void delitem();
+int total,i;
 int main()
 {
     char con;
@@ -25,6 +28,7 @@ int main()
       else
             exit(0);
     }
+    cart();
     getch();
 }
 void mainmenu(){
@@ -55,7 +59,8 @@ case 1:
         if(a==1)
                 {
                 total+=800;
-                printf("total = RS %d",total);
+                i++;
+                printf("%d items' added to cart",i);
                 }
         break;
         }
@@ -66,7 +71,8 @@ case 1:
         if(a==1)
                 {
                 total+=40000;
-                printf("total = RS %d",total);
+                i++;
+                printf("%d item added to cart",i);
                 }
         break;
         }
@@ -77,7 +83,8 @@ case 1:
         if(a==1)
                 {
                 total+=13000;
-                printf("total = RS %d",total);
+                i++;
+                printf("%d item added to cart",i);
                 }
         break;
         }
@@ -88,7 +95,8 @@ case 1:
         if(a==1)
                 {
                 total+=25000;
-                printf("total = RS %d",total);
+                i++;
+                printf("%d item added to cart",i);
                 }
 
         break;
@@ -116,7 +124,8 @@ case 2:
         if(a==1)
                 {
                 total+=4000;
-                printf("total = RS %d",total);
+                i++;
+                printf("%d item added to cart",i);
                 }
         break;
         }
@@ -127,7 +136,8 @@ case 2:
         if(a==1)
                 {
                 total+=7000;
-                printf("total = RS %d",total);
+                i++;
+                printf("%d item added to cart",i);
                 }
         break;
         }
@@ -138,7 +148,8 @@ case 2:
         if(a==1)
                 {
                 total+=3000;
-                printf("total = RS %d",total);
+                i++;
+                printf("%d item added to cart",i);
                 }
         break;
         }
@@ -149,7 +160,8 @@ case 2:
         if(a==1)
                 {
                 total+=8000;
-                printf("total = RS %d",total);
+                i++;
+                printf("%d item added to cart",i);
                 }
 
         break;
@@ -175,7 +187,8 @@ case 3:
         if(a==1)
                 {
                 total+=700;
-                printf("total = RS %d",total);
+                i++;
+                printf("%d item added to cart",i);
                 }
         break;
         }
@@ -186,7 +199,8 @@ case 3:
         if(a==1)
                 {
                 total+=1100;
-                printf("total = RS %d",total);
+                i++;
+                printf("%d item added to cart",i);
                 }
         break;
         }
@@ -197,7 +211,8 @@ case 3:
         if(a==1)
                 {
                 total+=1200;
-                printf("total = RS %d",total);
+                i++;
+                printf("%d item added to cart",i);
                 }
         break;
         }
@@ -208,7 +223,8 @@ case 3:
         if(a==1)
                 {
                 total+=1500;
-                printf("total = RS %d",total);
+                i++;
+                printf("%d item added to cart",i);
                 }
 
         break;
@@ -223,6 +239,11 @@ case 4:
 }
 }
 
+void cart()
+{
+    printf("\n\n\n\nITEMNS\t\tQUANTITY\t\tRATE");
+
+}
 
 
 
