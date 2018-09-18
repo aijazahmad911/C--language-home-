@@ -1,17 +1,31 @@
+/* By: Aijaz Ahmad Wani
+email :aijazahmad9864@gmail.com
+IMCA (SEM-1) */
+//program to obtain prime factors of a number using functions
 #include <stdio.h>
 #include <stdlib.h>
-
+void function(int);
 int main()
 {
-    int n,a,i=0;
+    int n;
     printf("enter a number :");
     scanf("%d",&n);
-    while(n!=1)
-    {
-        a=n/10;
-    printf("%d",a);
-    n=n/10;
-
-    i++;
-    }
+    prime(n);
+    getch();
 }
+void prime(int  n){
+    int i=2;
+    while(n!=1){
+    if(n%i==0){
+    printf("\n%d",i);
+    n=n/i;
+    }
+    else{
+    i++;
+    continue;
+    }
+
+    }
+
+}
+

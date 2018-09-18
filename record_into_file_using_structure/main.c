@@ -1,7 +1,7 @@
 /* By: Aijaz Ahmad Wani
 email :aijazahmad9864@gmail.com
 IMCA (SEM-1) */
-// writes records to a file using recursion
+// writes records to a file using structure
 #include <stdio.h>
 #include <stdlib.h>
 #include<conio.h>
@@ -29,10 +29,10 @@ int main()
         scanf(" %d",&e.age);
         printf("\nenter basic salary:");
         scanf(" %f",&e.bs);
-        fprintf(fp,"%s%d%f",e.name,e.age,e.bs);
+        fprintf(fp,"\n%s  %d  %f",e.name,e.age,e.bs);
         printf("\ndo you want to add more (y/n) :");
         fflush(stdin);
-        ch=getche();
+        ch=getch();
   }
             fclose(fp);
 

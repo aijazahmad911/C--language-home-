@@ -26,7 +26,7 @@ int main()
         if(con=='Y'||con=='y')
             mainmenu();
       else
-            exit(0);
+            break;
     }
     cart();
     getch();
@@ -60,7 +60,7 @@ case 1:
                 {
                 total+=800;
                 i++;
-                printf("%d items' added to cart",i);
+                printf("%d items added to cart",i);
                 }
         break;
         }
@@ -72,7 +72,7 @@ case 1:
                 {
                 total+=40000;
                 i++;
-                printf("%d item added to cart",i);
+                printf("%d items added to cart",i);
                 }
         break;
         }
@@ -84,7 +84,7 @@ case 1:
                 {
                 total+=13000;
                 i++;
-                printf("%d item added to cart",i);
+                printf("%d items added to cart",i);
                 }
         break;
         }
@@ -96,7 +96,7 @@ case 1:
                 {
                 total+=25000;
                 i++;
-                printf("%d item added to cart",i);
+                printf("%d items added to cart",i);
                 }
 
         break;
@@ -125,7 +125,7 @@ case 2:
                 {
                 total+=4000;
                 i++;
-                printf("%d item added to cart",i);
+                printf("%d items added to cart",i);
                 }
         break;
         }
@@ -137,7 +137,7 @@ case 2:
                 {
                 total+=7000;
                 i++;
-                printf("%d item added to cart",i);
+                printf("%d items added to cart",i);
                 }
         break;
         }
@@ -149,7 +149,7 @@ case 2:
                 {
                 total+=3000;
                 i++;
-                printf("%d item added to cart",i);
+                printf("%d items added to cart",i);
                 }
         break;
         }
@@ -161,7 +161,7 @@ case 2:
                 {
                 total+=8000;
                 i++;
-                printf("%d item added to cart",i);
+                printf("%d items added to cart",i);
                 }
 
         break;
@@ -188,7 +188,7 @@ case 3:
                 {
                 total+=700;
                 i++;
-                printf("%d item added to cart",i);
+                printf("%d items added to cart",i);
                 }
         break;
         }
@@ -200,7 +200,7 @@ case 3:
                 {
                 total+=1100;
                 i++;
-                printf("%d item added to cart",i);
+                printf("%d items added to cart",i);
                 }
         break;
         }
@@ -212,7 +212,7 @@ case 3:
                 {
                 total+=1200;
                 i++;
-                printf("%d item added to cart",i);
+                printf("%d items added to cart",i);
                 }
         break;
         }
@@ -224,7 +224,7 @@ case 3:
                 {
                 total+=1500;
                 i++;
-                printf("%d item added to cart",i);
+                printf("%d items added to cart",i);
                 }
 
         break;
@@ -241,7 +241,7 @@ case 4:
 
 void cart()
 {
-    printf("\n\n\n\nITEMNS\t\tQUANTITY\t\tRATE");
+    printf("\t\t\tTOTAL ITEMS =%d \n\t\t\tGRAND TOTAL =%d",i,total);
 
 }
 
