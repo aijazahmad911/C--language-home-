@@ -10,6 +10,7 @@ int main()
    printf("enter a year :");
    scanf("%d",&y);
    leap(y);//function call
+   return;
 }
 void leap(int y)// function definit
 {

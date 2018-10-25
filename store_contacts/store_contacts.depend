@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1539770031 source:e:\ajaz's\c programs(home)\store_contacts\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
