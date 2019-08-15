@@ -12,7 +12,7 @@ int main()
    leap(y);//function call
    return;
 }
-void leap(int y)// function definit
+void leap(int y)// function definition
 {
     if((y%100==0)&&(y%400==0))
         printf("leap year");
