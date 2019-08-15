@@ -9,6 +9,11 @@ Date: 15-8-2019
 
 int main()
 {
-    printf("Hello world!\n");
-    return 0;
+    float fah,cen;
+    printf("Enter Temperature in Fahrenheit: ");
+    scanf("%f",&fah);
+
+    cen = (fah-32)*5/9;
+
+    printf("Temperature in Centigrade degrees = %f",cen);
 }
