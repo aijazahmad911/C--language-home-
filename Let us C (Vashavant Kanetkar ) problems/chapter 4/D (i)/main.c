@@ -31,4 +31,5 @@ int main()
     else if(BMI<30.9)
         printf("Obese");
     else printf("Morbidly Obese");
+    getch();
 }
