@@ -3,6 +3,7 @@ Author: Aijaz Ahmad Wani
 email: aijazahmad9864@gmail.com
 Date: 28-8-2019
 */
+// program that interchanges the odd and even elements of an array
 #include <stdio.h>
 #include <stdlib.h>
 
